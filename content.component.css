@@ -1,0 +1,10 @@
+.text {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+    margin-bottom: 19px;
+}
+
+.text h4 {
+    margin: 0;
+}

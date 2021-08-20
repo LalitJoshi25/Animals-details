@@ -1,0 +1,64 @@
+@media only screen and (max-width:375px) {
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    /* body {
+    display: flex;
+    top: 40px;
+    left: 150px;
+
+
+}
+*/
+    .app_section {
+        width: 375px;
+        height: 812px;
+        border: 1px solid black;
+        overflow-y: scroll;
+        /* margin: 62px 133px; */
+        /* display: flex; */
+        /* top: 10px;
+        left: 200px;
+        position: absolute; */
+        /* overflow-x: hidden; */
+    }
+    .app_div {
+        width: 375px;
+        height: 116px;
+    }
+    #heading {
+        font-family: SFProDisplay-Bold;
+        font-size: 34px;
+        color: #000000;
+        letter-spacing: 0.41px;
+        /* line-height: 41px; */
+        margin-top: 35px;
+        margin-left: 16px;
+    }
+    input {
+        width: 343px;
+        height: 36px;
+        /* position: absolute; */
+        margin-top: 9px;
+        margin-left: 16px;
+        font-family: SFProText-Regular;
+        font-size: 17px;
+        color: #8E8E93;
+        letter-spacing: -0.41px;
+        line-height: 22px;
+        background: rgba(142, 142, 147, 0.12);
+        border-radius: 10px;
+        border-radius: 10px;
+        border: none;
+    }
+    hr {
+        background-color: gray;
+    }
+    /* footer {
+    position: sticky;
+    bottom: 0;
+    width: 357px;
+    height: 50px;
+} */
+}
